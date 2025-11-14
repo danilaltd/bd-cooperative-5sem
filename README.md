@@ -191,3 +191,33 @@
 
 ## Даталогическая модель
 ![Даталогическая модель](library.png)
+
+## Запуск
+
+1. MySQL 5.7+
+
+2. Загрузить схему:
+
+```powershell
+cmd /c reinitDB.bat
+```
+
+3. Настроить конфигурацию:
+    - В `Library-API/.env` дожно быть:
+       - PORT
+       - DB_HOST
+       - DB_USER
+       - DB_PASSWORD
+       - DB_DATABASE
+       - DB_PORT
+       - SECRET_KEY
+       
+4. Запустите API:
+```powershell
+cd .\Library-API; npm install; npm run dev
+```
+
+5. Импортируйте `library.postman_collection.json` в Postman для доступа к API.
+
+## TODO
+- `docs/indexes.md` — recommended indexes and how to validate them with EXPLAIN.

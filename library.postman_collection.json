@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "35af7871-5d0e-4a51-bfa1-715d47646545",
+		"_postman_id": "c8a970cc-9c77-4159-b8d8-511fc4363a4c",
 		"name": "library",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "26875057"
+		"_exporter_id": "44890126"
 	},
 	"item": [
 		{
@@ -1383,7 +1383,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTgsInVzZXJuYW1lIjoiZGVuZGVuaSIsImlzX2FkbWluIjowLCJpYXQiOjE3MDI0MTM0ODMsImV4cCI6MTcwNTAwNTQ4M30.CH1F-oIGkwBIk6uo4p77vYn2xshTtalWdJwr-zbpiAU",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJqb2huX2RvZSIsImlzX2FkbWluIjoxLCJpYXQiOjE3NjMwNjg4NDAsImV4cCI6MTc2NTY2MDg0MH0.teWp_W7TDz2_M8_g3_LFa2Atr6DOuMXj6A6SFX2c-Ag",
 									"type": "string"
 								}
 							]
@@ -1391,7 +1391,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/user/18",
+							"raw": "http://localhost:3000/api/user/12",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1400,7 +1400,7 @@
 							"path": [
 								"api",
 								"user",
-								"18"
+								"12"
 							]
 						}
 					},
@@ -1417,7 +1417,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTEsInVzZXJuYW1lIjoiZGVuaXNrbyIsImlzX2FkbWluIjoxLCJpYXQiOjE3MDIzOTI1MjgsImV4cCI6MTcwNDk4NDUyOH0.mbBidMaicJTzpCs8EWZ1GtkMYLtqGoW9AUs6tHNL4w8",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTEsInVzZXJuYW1lIjoiZGFuaWxhbHRkIiwiaXNfYWRtaW4iOjEsImlhdCI6MTc2MzA3MDMwMCwiZXhwIjoxNzY1NjYyMzAwfQ.Kh1B4PgjVg17XHxhm-sC6Z8jPL7W5khOjj95wAYeACY",
 									"type": "string"
 								}
 							]
@@ -1568,7 +1568,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTcsInVzZXJuYW1lIjoiZGVuaXNrbyIsImlzX2FkbWluIjoxLCJpYXQiOjE3MDI0MTAzNTYsImV4cCI6MTcwNTAwMjM1Nn0.AsE7r9frdhK_Om40VlLsOSO1VYFnKK0dmeauB8ZHVZE",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJqb2huX2RvZSIsImlzX2FkbWluIjoxLCJpYXQiOjE3NjMwNjg4NDAsImV4cCI6MTc2NTY2MDg0MH0.teWp_W7TDz2_M8_g3_LFa2Atr6DOuMXj6A6SFX2c-Ag",
 									"type": "string"
 								}
 							]
@@ -1585,7 +1585,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/user/17",
+							"raw": "http://localhost:3000/api/user/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1594,7 +1594,7 @@
 							"path": [
 								"api",
 								"user",
-								"17"
+								"2"
 							]
 						}
 					},
@@ -1613,7 +1613,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTgsInVzZXJuYW1lIjoiZGVuZGVuaSIsImlzX2FkbWluIjowLCJpYXQiOjE3MDI0MTM0ODMsImV4cCI6MTcwNTAwNTQ4M30.CH1F-oIGkwBIk6uo4p77vYn2xshTtalWdJwr-zbpiAU",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTEsInVzZXJuYW1lIjoiZGFuaWxhbHRkIiwiaXNfYWRtaW4iOjEsImlhdCI6MTc2MzA3MDMwMCwiZXhwIjoxNzY1NjYyMzAwfQ.Kh1B4PgjVg17XHxhm-sC6Z8jPL7W5khOjj95wAYeACY",
 									"type": "string"
 								}
 							]
@@ -1621,7 +1621,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/user_profile/18",
+							"raw": "http://localhost:3000/api/user_profile/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1630,7 +1630,7 @@
 							"path": [
 								"api",
 								"user_profile",
-								"18"
+								"1"
 							]
 						}
 					},
@@ -1647,7 +1647,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTgsInVzZXJuYW1lIjoiZGVuZGVuaSIsImlzX2FkbWluIjowLCJpYXQiOjE3MDI0MTM0ODMsImV4cCI6MTcwNTAwNTQ4M30.CH1F-oIGkwBIk6uo4p77vYn2xshTtalWdJwr-zbpiAU",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTEsInVzZXJuYW1lIjoiZGFuaWxhbHRkIiwiaXNfYWRtaW4iOjEsImlhdCI6MTc2MzA3MDMwMCwiZXhwIjoxNzY1NjYyMzAwfQ.Kh1B4PgjVg17XHxhm-sC6Z8jPL7W5khOjj95wAYeACY",
 									"type": "string"
 								}
 							]
@@ -1681,7 +1681,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTgsInVzZXJuYW1lIjoiZGVuZGVuaSIsImlzX2FkbWluIjowLCJpYXQiOjE3MDI0MTM0ODMsImV4cCI6MTcwNTAwNTQ4M30.CH1F-oIGkwBIk6uo4p77vYn2xshTtalWdJwr-zbpiAU",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInVzZXJuYW1lIjoiZGFuaWxhbHRkIiwiaXNfYWRtaW4iOjAsImlhdCI6MTc2MzA2OTA0NSwiZXhwIjoxNzY1NjYxMDQ1fQ.-QNwvJB36y0dOLJDgsyfCbujZeFYW5i5RKyUzxvgjmM",
 									"type": "string"
 								}
 							]
@@ -2398,7 +2398,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"dendeni\",\r\n    \"password\": \"dendeni\",\r\n    \"email\": \"dendeni@m4ail.su\"\r\n}",
+							"raw": "{\r\n    \"username\": \"danilaltd\",\r\n    \"password\": \"psw\",\r\n    \"email\": \"mail@m.a\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2428,7 +2428,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"denisko\",\r\n    \"password\": \"test_password\"\r\n}",
+							"raw": "{\r\n    \"username\": \"danilaltd\",\r\n    \"password\": \"danilaltd_psw\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2446,6 +2446,37 @@
 								"api",
 								"auth",
 								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsInVzZXJuYW1lIjoiZGFuaWxhbHRkIiwiaXNfYWRtaW4iOjAsImlhdCI6MTc2MzA2OTMwMiwiZXhwIjoxNzY1NjYxMzAyfQ.HaA8fZfgXOIlcnfwf4DvT1VsDJXmSgkpbg7twttfWFs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/auth/logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"logout"
 							]
 						}
 					},

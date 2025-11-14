@@ -32,7 +32,7 @@ const AuthController = {
             if (!user || user.password !== crypto.createHash('sha256').update(password).digest('hex')) {
                 return res.status(401).json({ error: 'Invalid login or password' });
             }
-
+            
             const payload = {
                 id: user.id,
                 username: user.username,
@@ -41,7 +41,35 @@ const AuthController = {
 
             const token = jwt.sign(payload, process.env.SECRET_KEY, { expiresIn: '30d' });
 
+            try {
+                await pool.query('INSERT INTO action (description, action_type_id, user_id) VALUES (?, ?, ?)',
+                    [`User logged in: ${user.username}`, 2, user.id]);
+            } catch (logErr) {
+                console.error('Failed to log login action:', logErr);
+            }
+
             res.status(200).json({ token, user: payload });
+        } catch (e) {
+            next(e);
+        }
+    },
+
+    logout: async (req, res, next) => {
+        try {
+            const user = req.user;
+
+            if (!user) {
+                return next(ApiError.UnauthorizedError());
+            }
+
+            try {
+                await pool.query('INSERT INTO action (description, action_type_id, user_id) VALUES (?, ?, ?)',
+                    [`User logged out: ${user.username}`, 3, user.id]);
+            } catch (logErr) {
+                console.error('Failed to log logout action:', logErr);
+            }
+
+            res.status(200).json({ message: 'Logged out' });
         } catch (e) {
             next(e);
         }

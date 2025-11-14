@@ -1,3 +1,5 @@
+USE library;
+
 # Create user procedure
 DELIMITER //
 CREATE PROCEDURE CreateUser(
@@ -5,7 +7,7 @@ CREATE PROCEDURE CreateUser(
     IN p_password VARCHAR(100),
     IN p_email VARCHAR(254),
     IN p_is_active TINYINT(1),
-    IN p_is_admin TINYINT(0)
+    IN p_is_admin TINYINT(1)
 )
 BEGIN
     DECLARE existing_user INT;
@@ -27,11 +29,6 @@ END;
 //
 DELIMITER ;
 
-# Test procedure
-# CALL CreateUser("denis_test", "test_password", "qwe@mail.ru", 1, 0, 0);
-
-
-
 # Update user procedure
 DELIMITER //
 CREATE PROCEDURE UpdateUser(
@@ -40,7 +37,7 @@ CREATE PROCEDURE UpdateUser(
     IN p_password VARCHAR(100),
     IN p_email VARCHAR(254),
     IN p_is_active TINYINT(1),
-    IN p_is_admin TINYINT(0)
+    IN p_is_admin TINYINT(1)
 )
 BEGIN
     DECLARE existing_user INT;

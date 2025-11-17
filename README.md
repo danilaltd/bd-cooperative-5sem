@@ -218,6 +218,3 @@ cd .\Library-API; npm install; npm run dev
 ```
 
 5. Импортируйте `library.postman_collection.json` в Postman для доступа к API.
-
-## TODO
-- `docs/indexes.md` — recommended indexes and how to validate them with EXPLAIN.

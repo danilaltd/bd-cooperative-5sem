@@ -14,5 +14,6 @@ router.use('/reading', require('./reading-router'));
 router.use('/user', require('./user-router'));
 router.use('/user_profile', require('./user-profile-router'));
 router.use('/complex_queries', require('./complex-queries-router'));
+router.use('/action', require('./action-router'));
 
 module.exports = router;
